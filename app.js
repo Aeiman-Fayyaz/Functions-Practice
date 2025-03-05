@@ -11,11 +11,63 @@
 // }
 // dateTime();
 
-let userFirstName = prompt("Enter Your First Name")
-let userLastName = prompt("Enter Your Last Name")
 
-function userGreeting(userFirstName , userLastName){
-    alert("Good Morning" + " " + userFirstName + " " + userLastName)
-}
-userGreeting(userFirstName,userLastName)
 
+// Greeting
+
+
+// let userFirstName = prompt("Enter Your First Name")
+// let userLastName = prompt("Enter Your Last Name")
+
+// function userGreeting(userFirstName , userLastName){
+//     alert("Good Morning" + " " + userFirstName + " " + userLastName)
+// }
+// userGreeting(userFirstName,userLastName)
+
+
+
+// Add 2 numbers getting by user
+
+
+// let num1 = +prompt("Enter your first number")
+// let num2 = +prompt("Enter your second number")
+// let operator = prompt("Enter a operator which calculation you want (+ , - , * , /)")
+
+// function sum(num1 , num2 , operator) {
+//     if(operator == "+"){
+//         document.write("<h4>First Number:</h4>" , "<br/>" , num1 , "<br/>" , "<h4>Second Number:</h4>" , num2 , "<br/>" 
+//         , "<h4>Operator:</h4>" , operator , "<br/>" , "<h4>Answer:</h4>" , "<br/>" , num1 + num2 );
+//     }
+//     if(operator == "-"){
+//         document.write("<h4>First Number:</h4>" , "<br/>" , num1 , "<br/>" , "<h4>Second Number:</h4>" , num2 , "<br/>" 
+//         , "<h4>Operator:</h4>" , operator , "<br/>" , "<h4>Answer:</h4>" , "<br/>" , num1 - num2 );
+//     }
+//     if(operator == "*"){
+//         document.write("<h4>First Number:</h4>" , "<br/>" , num1 , "<br/>" , "<h4>Second Number:</h4>" , num2 , "<br/>" 
+//         , "<h4>Operator:</h4>" , operator , "<br/>" , "<h4>Answer:</h4>" , "<br/>" , num1 * num2 );
+//     }
+//     if(operator == "/"){
+//         document.write("<h4>First Number:</h4>" , "<br/>" , num1 , "<br/>" , "<h4>Second Number:</h4>" , num2 , "<br/>" 
+//         , "<h4>Operator:</h4>" , operator , "<br/>" , "<h4>Answer:</h4>" , "<br/>" , num1 / num2 );
+//     }
+// }
+// sum(num1 , num2 , operator);
+
+
+
+// Counting
+
+
+// let startNum = +prompt("Enter a number for start the counting")
+// let endNum = +prompt("Enter a number for end the counting")
+
+// function counting(startNum , endNum){
+//     document.write("<h1>Counting:</h1>" , "<br/>" , "<h4>Start Number:</h4>" , "<br/>" , startNum , "<br/>" , 
+//             "<h4>End Number:</h4>" , "<br/>" , endNum , "<br/>" , "<h4>Count:</h4>")
+//     if(startNum < endNum){
+//         for(let i = startNum ; i <= endNum ; i++){
+//             document.write("<br/>" ,i , "<br/>");
+//         }
+//     }
+// }
+// counting(startNum , endNum)
