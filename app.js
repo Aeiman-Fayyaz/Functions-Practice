@@ -71,3 +71,17 @@
 //     }
 // }
 // counting(startNum , endNum)
+
+
+
+// find the longest word within the string
+
+// let longString = "Web Development Tutorial"
+
+// function longestString() {
+//     if(longString.includes("Development")){
+//                 document.write("We found longest string");
+//         }
+// }
+
+// longestString()
