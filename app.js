@@ -91,18 +91,34 @@
 // Palindrome Checker 
 
 
-let str = "Hello"
+// let str = prompt("Enter a palendrome word (Mom - Mom)").toLowerCase()
 
-function palindromeChecker(word) {
-    let splitWord = word.split("")
-    let reverseWord = splitWord.reverse()
-    let joinWord = reverseWord.join("")
-    if(joinWord == word){
-        document.write(word + " is palindrome word")
-    }
-    else{
-        document.write(word + " is not palindrome word")
-    }
+// function palindromeChecker(word) {
+//     let splitWord = word.split("")
+//     let reverseWord = splitWord.reverse()
+//     let joinWord = reverseWord.join("")
+//     if(joinWord == word){
+//         document.write(word + " is palindrome word")
+//     }
+//     else{
+//         document.write(word + " is not palindrome word")
+//     }
+// }
+
+// palindromeChecker(str)
+
+
+
+// First Word Capital 
+
+
+let line = "this is me"
+
+function firstCapitalLetter(strs) {
+    let arr = strs.split()
+    console.log(arr);
+    
+    
 }
 
-palindromeChecker(str)
+firstCapitalLetter(line)
