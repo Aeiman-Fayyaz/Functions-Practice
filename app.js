@@ -85,3 +85,24 @@
 // }
 
 // longestString()
+
+
+
+// Palindrome Checker 
+
+
+let str = "Hello"
+
+function palindromeChecker(word) {
+    let splitWord = word.split("")
+    let reverseWord = splitWord.reverse()
+    let joinWord = reverseWord.join("")
+    if(joinWord == word){
+        document.write(word + " is palindrome word")
+    }
+    else{
+        document.write(word + " is not palindrome word")
+    }
+}
+
+palindromeChecker(str)
