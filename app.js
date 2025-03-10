@@ -112,13 +112,64 @@
 // First Word Capital 
 
 
-let line = "this is me"
+// let line = "this is me"
 
-function firstCapitalLetter(strs) {
-    let arr = strs.split()
-    console.log(arr);
+// function firstCapitalLetter(strs) {
+//     let arr = strs.split()
+//     console.log(arr);
     
     
+// }
+
+// firstCapitalLetter(line)
+
+
+
+// CHAPTER 39 
+// SWITCH STATEMENT
+
+// let day = "tuesday"
+
+// switch (day) {
+//     case "monday":
+//         document.write("Q aaye tm")
+//         break;
+//     case "tuesday":
+//         document.write("aahhhh")
+//         break;
+//     case "wednesay":
+//         document.write("Tired")
+//         break;
+//     case "thursday":
+//         document.write("Shab e Jumma")
+//         break;
+//     case "friday":
+//         document.write("Jumma Mubarak")
+//         break;
+//     case "saturday":
+//         document.write("Weekend")
+//         break;
+//     case "sunday":
+//         document.write("Chuttii")
+//         break;
+//     default:
+//         document.write("Nh baaaii tm kam kro bs")
+//         break;
+// }
+
+
+let signal = prompt("Enter a signal light")
+
+switch (signal){
+    case "red":
+        alert("Please Stop")
+        break;
+    case "green":
+        alert("Ready to go")
+        break;
+    case "yellow":
+        alert("Gooo")
+        break;
+    default:
+        alert("This light color is not a signal light")
 }
-
-firstCapitalLetter(line)
