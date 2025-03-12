@@ -64,22 +64,22 @@
 
 // find the longest word within the string
 
-let longString = "Web Development Tutorial";
+// let longString = "Web Development Tutorial";
 
-function longestString(str) {
-  let words = str.split(" ");
-  let firstLongest = words[0].length;
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].length > firstLongest) {1
-      firstLongest = words[i].length;
-      document.write(words[i])
+// function longestString(str) {
+//   let words = str.split(" ");
+//   let firstLongest = words[0].length;
+//   for (let i = 0; i < words.length; i++) {
+//     if (words[i].length > firstLongest) {1
+//       firstLongest = words[i].length;
+//       document.write(words[i])
 
-    }
-}
-  console.log(firstLongest);
-}
+//     }
+// }
+//   console.log(firstLongest);
+// }
 
-longestString(longString);
+// longestString(longString);
 
 // Palindrome Checker
 
@@ -158,3 +158,43 @@ longestString(longString);
 //     default:
 //         alert("This light color is not a signal light")
 // }
+
+
+
+
+
+
+// CHAPTER 41
+// WHILE LOOP
+
+
+// let i = 1;
+// while (i <= 500) {
+//   document.write(i + "<br/>")
+
+//   i++
+// }
+
+// let j = 1; 
+// while (j <= 10 ) {
+//   if (1 % 2 == 0)
+//   console.log(j);
+
+//   j++
+
+// }
+
+
+// WHILE LOOP WHEN WE DON'T KNOW THE ITERATION
+
+let userPassword = prompt("Enter your password")
+
+let password = "aeiman"
+
+while (true) {
+  if(userPassword == password){
+    document.write("Welcome")
+    break
+  }
+  else{userPassword = prompt("Try again")}
+}
