@@ -236,6 +236,22 @@
 // ACCOUNT BLOCED CONDITION
 
 
-let password = "aeiman"
+// let password = "aeiman"
 
-let userPassword = 
+// let userPassword = prompt("Enter your password")
+
+// let count = 0
+
+// while (true) {
+//   if (userPassword == password){
+//     alert("Welcome to Home page")
+//     break
+//   }
+//   ++count
+//   if(count == 5){
+//     alert("Account block! You attempts wrong password many time")
+//     break
+    
+//   }
+//   userPassword = prompt("Enter your password")
+// }
