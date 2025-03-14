@@ -187,14 +187,55 @@
 
 // WHILE LOOP WHEN WE DON'T KNOW THE ITERATION
 
-let userPassword = prompt("Enter your password")
+// let userPassword = prompt("Enter your password")
+
+// let password = "aeiman"
+
+// while (true) {
+//   if(userPassword == password){
+//     document.write("Welcome")
+//     break
+//   }
+//   else{userPassword = prompt("Try again")}
+// }
+
+
+
+// WHILE LOOP
+
+// TASK WHILE LOOP ON ARRAY
+
+// let i = 0
+
+// let colors = ["red" , "blue" , "green" , "yellow" , "orange"]
+
+// while(i < colors.length){
+//     document.write("It's " + colors[i] + "<br/>")
+//     i++
+// }
+
+
+
+
+// TASK BATTERY CHARGING
+
+// let diedBattery = 0
+
+// let chargeIncreased = 10
+
+// while (diedBattery <= 100) {
+//     if (diedBattery == 100){
+//        console.log("Battery fully charged")
+//         break
+//     }
+//     diedBattery = diedBattery + chargeIncreased
+// }
+
+
+
+// ACCOUNT BLOCED CONDITION
+
 
 let password = "aeiman"
 
-while (true) {
-  if(userPassword == password){
-    document.write("Welcome")
-    break
-  }
-  else{userPassword = prompt("Try again")}
-}
+let userPassword = 
