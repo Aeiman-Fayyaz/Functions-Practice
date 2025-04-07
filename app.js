@@ -255,3 +255,12 @@
 //   }
 //   userPassword = prompt("Enter your password")
 // }
+
+
+
+
+// CHAPTER EVENTS
+
+function greet(params) {
+    prompt("Enter your name")
+}
