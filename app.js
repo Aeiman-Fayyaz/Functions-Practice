@@ -299,7 +299,7 @@ for (let i = 0; i < colors.length; i++) {
 
 function clickDesign() {
     for(let i = 0 ; i < colors.length ; i++){
-        colors[i].className("btn")
+        colors[i].className = "btn"
     }
     
 }
