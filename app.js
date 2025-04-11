@@ -279,3 +279,27 @@
     
 // }
 // console.log(btnInput);
+
+
+// colors[0].addEventListener("click" , buttonColor)
+
+// function buttonColor() {
+//     alert("Hello")
+//     colors[0].style.backgroundColor = "red"
+// }
+let colors = document.getElementsByClassName("container")
+
+console.log(colors);
+
+
+for (let i = 0; i < colors.length; i++) {
+    let colorLoop  = colors[i];
+    colorLoop.addEventListener("click",clickDesign)
+}
+
+function clickDesign() {
+    for(let i = 0 ; i < colors.length ; i++){
+        colors[i].className("btn")
+    }
+    
+}
