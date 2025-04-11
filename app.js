@@ -261,6 +261,21 @@
 
 // CHAPTER EVENTS
 
-function greet(params) {
-    prompt("Enter your name")
-}
+// function greet() {
+//     console.log("Cliking");
+// }
+
+// let inputField = document.getElementById("abc")
+
+// inputField.addEventListener("focus" , greet)
+
+
+// let btnInput = document.getElementById("btn")
+
+// btnInput.addEventListener("click" , btnClick)
+
+// function btnClick() {
+//     alert("Welcome")
+    
+// }
+// console.log(btnInput);
