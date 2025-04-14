@@ -287,19 +287,48 @@
 //     alert("Hello")
 //     colors[0].style.backgroundColor = "red"
 // }
-let colors = document.getElementsByClassName("container")
+// let colors = document.getElementsByClassName("container")
 
-console.log(colors);
+// console.log(colors);
 
 
-for (let i = 0; i < colors.length; i++) {
-    let colorLoop  = colors[i];
-    colorLoop.addEventListener("click",clickDesign)
-}
+// for (let i = 0; i < colors.length; i++) {
+//     let colorLoop  = colors[i];
+//     colorLoop.addEventListener("click",clickDesign)
+// }
 
-function clickDesign() {
-    for(let i = 0 ; i < colors.length ; i++){
-        colors[i].className = "btn"
-    }
+// function clickDesign() {
+//     for(let i = 0 ; i < colors.length ; i++){
+//         colors[i].className = "btn"
+//     }
     
-}
+// }
+
+// let obj = {
+//     class : "Web"
+//     a : "Monday"
+// }
+
+// let obj={
+//     class:"Web",
+//     day:"monday"
+//   }
+  
+//   console.log(typeof obj)
+
+// let arr = ["monday" , "tuesday"]
+
+// console.log(Array.isArray(arr));
+
+let btn = document.getElementById("submit")
+console.log(btn);
+
+btn.addEventListener("click" , function(){
+    console.log("Clicking");
+    let inputField = document.getElementById("input1")
+    console.log(inputField.value.length);
+    if(inputField.value.length == 0){
+       
+        inputField.classList.add("inputError");
+    }
+})

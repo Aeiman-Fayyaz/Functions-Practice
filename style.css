@@ -4,6 +4,11 @@
     background-color: rgb(180, 177, 124);
 } */
 
-.btn{
+/* .btn{
     background-color: aqua;
+} */
+
+.inputError{
+    border: 5px solid red;
+   
 }
