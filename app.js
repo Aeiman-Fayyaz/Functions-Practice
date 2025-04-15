@@ -159,14 +159,8 @@
 //         alert("This light color is not a signal light")
 // }
 
-
-
-
-
-
 // CHAPTER 41
 // WHILE LOOP
-
 
 // let i = 1;
 // while (i <= 500) {
@@ -175,7 +169,7 @@
 //   i++
 // }
 
-// let j = 1; 
+// let j = 1;
 // while (j <= 10 ) {
 //   if (1 % 2 == 0)
 //   console.log(j);
@@ -183,7 +177,6 @@
 //   j++
 
 // }
-
 
 // WHILE LOOP WHEN WE DON'T KNOW THE ITERATION
 
@@ -199,8 +192,6 @@
 //   else{userPassword = prompt("Try again")}
 // }
 
-
-
 // WHILE LOOP
 
 // TASK WHILE LOOP ON ARRAY
@@ -213,9 +204,6 @@
 //     document.write("It's " + colors[i] + "<br/>")
 //     i++
 // }
-
-
-
 
 // TASK BATTERY CHARGING
 
@@ -231,10 +219,7 @@
 //     diedBattery = diedBattery + chargeIncreased
 // }
 
-
-
 // ACCOUNT BLOCED CONDITION
-
 
 // let password = "aeiman"
 
@@ -251,13 +236,10 @@
 //   if(count == 5){
 //     alert("Account block! You attempts wrong password many time")
 //     break
-    
+
 //   }
 //   userPassword = prompt("Enter your password")
 // }
-
-
-
 
 // CHAPTER EVENTS
 
@@ -269,17 +251,15 @@
 
 // inputField.addEventListener("focus" , greet)
 
-
 // let btnInput = document.getElementById("btn")
 
 // btnInput.addEventListener("click" , btnClick)
 
 // function btnClick() {
 //     alert("Welcome")
-    
+
 // }
 // console.log(btnInput);
-
 
 // colors[0].addEventListener("click" , buttonColor)
 
@@ -291,7 +271,6 @@
 
 // console.log(colors);
 
-
 // for (let i = 0; i < colors.length; i++) {
 //     let colorLoop  = colors[i];
 //     colorLoop.addEventListener("click",clickDesign)
@@ -301,7 +280,7 @@
 //     for(let i = 0 ; i < colors.length ; i++){
 //         colors[i].className = "btn"
 //     }
-    
+
 // }
 
 // let obj = {
@@ -313,22 +292,37 @@
 //     class:"Web",
 //     day:"monday"
 //   }
-  
+
 //   console.log(typeof obj)
 
 // let arr = ["monday" , "tuesday"]
 
 // console.log(Array.isArray(arr));
 
-let btn = document.getElementById("submit")
-console.log(btn);
+// let btn = document.getElementById("submit")
+// console.log(btn);
 
-btn.addEventListener("click" , function(){
-    console.log("Clicking");
-    let inputField = document.getElementById("input1")
-    console.log(inputField.value.length);
-    if(inputField.value.length == 0){
-       
-        inputField.classList.add("inputError");
-    }
-})
+// btn.addEventListener("click" , function(){
+//     console.log("Clicking");
+//     let inputField = document.getElementById("input1")
+//     console.log(inputField.value);
+//     if(inputField.value == 0){
+
+//         inputField.classList.add("inputError");
+//     }
+// })
+
+let btn2 = document.getElementById("submit");
+console.log(btn2);
+
+btn2.addEventListener("click", function () {
+  console.log("clicks");
+  let inputEmail = document.getElementById("emailInput");
+  let emailValue = inputEmail.value;
+
+  if (emailValue.includes("@")) {
+    alert("Correct Email");
+  } else {
+    alert("Wrong email");
+  }
+});
