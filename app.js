@@ -159,14 +159,8 @@
 //         alert("This light color is not a signal light")
 // }
 
-
-
-
-
-
 // CHAPTER 41
 // WHILE LOOP
-
 
 // let i = 1;
 // while (i <= 500) {
@@ -175,7 +169,7 @@
 //   i++
 // }
 
-// let j = 1; 
+// let j = 1;
 // while (j <= 10 ) {
 //   if (1 % 2 == 0)
 //   console.log(j);
@@ -183,7 +177,6 @@
 //   j++
 
 // }
-
 
 // WHILE LOOP WHEN WE DON'T KNOW THE ITERATION
 
@@ -199,8 +192,6 @@
 //   else{userPassword = prompt("Try again")}
 // }
 
-
-
 // WHILE LOOP
 
 // TASK WHILE LOOP ON ARRAY
@@ -213,9 +204,6 @@
 //     document.write("It's " + colors[i] + "<br/>")
 //     i++
 // }
-
-
-
 
 // TASK BATTERY CHARGING
 
@@ -231,10 +219,7 @@
 //     diedBattery = diedBattery + chargeIncreased
 // }
 
-
-
 // ACCOUNT BLOCED CONDITION
-
 
 // let password = "aeiman"
 
@@ -256,9 +241,6 @@
 //   userPassword = prompt("Enter your password")
 // }
 
-
-
-
 // CHAPTER EVENTS
 
 // function greet() {
@@ -268,7 +250,6 @@
 // let inputField = document.getElementById("abc")
 
 // inputField.addEventListener("focus" , greet)
-
 
 // let btnInput = document.getElementById("btn")
 
@@ -280,7 +261,6 @@
 // }
 // console.log(btnInput);
 
-
 // colors[0].addEventListener("click" , buttonColor)
 
 // function buttonColor() {
@@ -290,7 +270,6 @@
 // let colors = document.getElementsByClassName("container")
 
 // console.log(colors);
-
 
 // for (let i = 0; i < colors.length; i++) {
 //     let colorLoop  = colors[i];
@@ -323,37 +302,12 @@
 // let btn = document.getElementById("submit")
 // console.log(btn);
 
-// btn.addEventListener("click" , function(){
-//     console.log("Clicking");
-//     let inputField = document.getElementById("input1")
-//     console.log(inputField.value.length);
-//     if(inputField.value.length == 0){
-
-//         inputField.classList.add("inputError");
-//     }
-// })
-
-
-
-
-// KEY EVENT CODE 
-
-/*document.addEventListener("keydown" , function(event){
-    console.log("Key is releasing");
-    console.log(event.key);
-    if (event.key === "g") {
-        alert("You press g")
+btn.addEventListener("click" , function(){
+    console.log("Clicking");
+    let inputField = document.getElementById("input1")
+    console.log(inputField.value.length);
+    if(inputField.value.length == 0){
+       
+        inputField.classList.add("inputError");
     }
 })
-document.addEventListener("keyup" , function(){
-    console.log("Key is press");
-})*/
-
-
-
-// INNER TEXT / HTML / TEXT CONTENT
-
-let fullText = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti perferendis quam amet, alias ratione 
-quo iusto officia reprehenderit aut nesciunt minus placeat totam, mollitia tempora animi modi corrupti.Saepe, nulla.`
-
-let shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cumque."
