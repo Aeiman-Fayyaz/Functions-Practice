@@ -320,15 +320,26 @@
 
 // console.log(Array.isArray(arr));
 
-let btn = document.getElementById("submit")
-console.log(btn);
+// let btn = document.getElementById("submit")
+// console.log(btn);
 
-btn.addEventListener("click" , function(){
-    console.log("Clicking");
-    let inputField = document.getElementById("input1")
-    console.log(inputField.value.length);
-    if(inputField.value.length == 0){
+// btn.addEventListener("click" , function(){
+//     console.log("Clicking");
+//     let inputField = document.getElementById("input1")
+//     console.log(inputField.value.length);
+//     if(inputField.value.length == 0){
        
-        inputField.classList.add("inputError");
+//         inputField.classList.add("inputError");
+//     }
+// })
+
+document.addEventListener("keydown" , function(event){
+    console.log("Key is releasing");
+    console.log(event.key);
+    if (event.key === "g") {
+        alert("You press g")
     }
+})
+document.addEventListener("keyup" , function(){
+    console.log("Key is press");
 })
