@@ -251,7 +251,7 @@
 //   if(count == 5){
 //     alert("Account block! You attempts wrong password many time")
 //     break
-    
+
 //   }
 //   userPassword = prompt("Enter your password")
 // }
@@ -276,7 +276,7 @@
 
 // function btnClick() {
 //     alert("Welcome")
-    
+
 // }
 // console.log(btnInput);
 
@@ -301,7 +301,7 @@
 //     for(let i = 0 ; i < colors.length ; i++){
 //         colors[i].className = "btn"
 //     }
-    
+
 // }
 
 // let obj = {
@@ -313,7 +313,7 @@
 //     class:"Web",
 //     day:"monday"
 //   }
-  
+
 //   console.log(typeof obj)
 
 // let arr = ["monday" , "tuesday"]
@@ -328,12 +328,17 @@
 //     let inputField = document.getElementById("input1")
 //     console.log(inputField.value.length);
 //     if(inputField.value.length == 0){
-       
+
 //         inputField.classList.add("inputError");
 //     }
 // })
 
-document.addEventListener("keydown" , function(event){
+
+
+
+// KEY EVENT CODE 
+
+/*document.addEventListener("keydown" , function(event){
     console.log("Key is releasing");
     console.log(event.key);
     if (event.key === "g") {
@@ -342,4 +347,13 @@ document.addEventListener("keydown" , function(event){
 })
 document.addEventListener("keyup" , function(){
     console.log("Key is press");
-})
+})*/
+
+
+
+// INNER TEXT / HTML / TEXT CONTENT
+
+let fullText = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti perferendis quam amet, alias ratione 
+quo iusto officia reprehenderit aut nesciunt minus placeat totam, mollitia tempora animi modi corrupti.Saepe, nulla.`
+
+let shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cumque."

@@ -8,7 +8,16 @@
     background-color: aqua;
 } */
 
-.inputError{
+/* .inputError{
     border: 5px solid red;
    
+} */
+
+.design{
+    border: 5px solid black;
+    width: 100px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 150px;
 }
