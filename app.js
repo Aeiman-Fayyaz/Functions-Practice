@@ -307,7 +307,7 @@
 //     let inputField = document.getElementById("input1")
 //     console.log(inputField.value.length);
 //     if(inputField.value.length == 0){
-       
+
 //         inputField.classList.add("inputError");
 //     }
 // })
@@ -317,20 +317,40 @@
 // INNER HTML / CONTENT
 
 
-let fullText = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequuntur aperiam sapiente at
-assumenda soluta iste voluptatibus omnis porro necessitatibus molestias laborum, nam provident est
-voluptates deleniti ipsum mollitia expedita! `
+// let fullText = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequuntur aperiam sapiente at
+// assumenda soluta iste voluptatibus omnis porro necessitatibus molestias laborum, nam provident est
+// voluptates deleniti ipsum mollitia expedita! `
 
-let shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+// let shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 
+// let btn = document.getElementById("btn")
+
+// let para = document.getElementById("para")
+
+// btn.addEventListener("click" , function(){
+//     if(btn.innerHTML == "Read More")
+//     {
+//         para.innerHTML = fullText
+//         btn.innerHTML = "Read Less"
+//     }
+//     else{
+//         para.innerHTML = shortText
+//         btn.innerHTML = "Read More"
+//     }
+// })
+
+
+let paraTag = document.getElementsByTagName("p")
 let btn = document.getElementById("btn")
 
-let para = document.getElementById("para")
+// console.log(paraTag);
 
-btn.addEventListener("click" , function(){
-    if(btn.innerHTML == "Read More")
-    {
-        para.innerHTML = fullText
-        btn.innerHTML = "Read Less"
+
+btn.addEventListener("click", function () {
+    paraTag[2].classList.add('blue')
+    paraTag[2].innerText = "Aeiman"
+    for (i = 0; i < paraTag.length; i++) {
+            paraTag[i].classList.add('blue')
+            paraTag[i].innerText = "Aeiman"
     }
-})
+})  
