@@ -21,3 +21,7 @@
     padding: 50px;
     margin-left: 150px;
 }
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+}

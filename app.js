@@ -302,12 +302,35 @@
 // let btn = document.getElementById("submit")
 // console.log(btn);
 
-btn.addEventListener("click" , function(){
-    console.log("Clicking");
-    let inputField = document.getElementById("input1")
-    console.log(inputField.value.length);
-    if(inputField.value.length == 0){
+// btn.addEventListener("click" , function(){
+//     console.log("Clicking");
+//     let inputField = document.getElementById("input1")
+//     console.log(inputField.value.length);
+//     if(inputField.value.length == 0){
        
-        inputField.classList.add("inputError");
+//         inputField.classList.add("inputError");
+//     }
+// })
+
+
+
+// INNER HTML / CONTENT
+
+
+let fullText = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem consequuntur aperiam sapiente at
+assumenda soluta iste voluptatibus omnis porro necessitatibus molestias laborum, nam provident est
+voluptates deleniti ipsum mollitia expedita! `
+
+let shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+let btn = document.getElementById("btn")
+
+let para = document.getElementById("para")
+
+btn.addEventListener("click" , function(){
+    if(btn.innerHTML == "Read More")
+    {
+        para.innerHTML = fullText
+        btn.innerHTML = "Read Less"
     }
 })
