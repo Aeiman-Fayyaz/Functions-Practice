@@ -340,17 +340,46 @@
 // })
 
 
-let paraTag = document.getElementsByTagName("p")
-let btn = document.getElementById("btn")
+// let paraTag = document.getElementsByTagName("p")
+// let btn = document.getElementById("btn")
 
-// console.log(paraTag);
+// // console.log(paraTag);
 
 
-btn.addEventListener("click", function () {
-    paraTag[2].classList.add('blue')
-    paraTag[2].innerText = "Aeiman"
-    for (i = 0; i < paraTag.length; i++) {
-            paraTag[i].classList.add('blue')
-            paraTag[i].innerText = "Aeiman"
+// btn.addEventListener("click", function () {
+//     paraTag[2].classList.add('blue')
+//     paraTag[2].innerText = "Aeiman"
+//     for (i = 0; i < paraTag.length; i++) {
+//             paraTag[i].classList.add('blue')
+//             paraTag[i].innerText = "Aeiman"
+//     }
+// })  
+
+
+
+
+
+// CHAPTER OBJECT
+
+const student1 = {
+    firstName : "Aeiman",
+    lastName : "Fayyaz",
+    class : "Web", 
+    rollNo : 15465,
+    hobbies : ['Sketching' , 'Painting'],
+    address : {
+        streetNo : [52, "Hussainabad" ],
+        zipCode : 444
+    },
+    fullName : function(){
+        console.log(`${this.firstName} ${this.lastName}`);
+      
     }
-})  
+}
+student1.fullName()
+
+// console.table(student1)
+console.log(student1);
+console.log(delete student1.class);
+
+// console.log(student1);
